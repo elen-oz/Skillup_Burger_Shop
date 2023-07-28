@@ -2,14 +2,14 @@
 
 #menu {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   background-color: white;
-  padding: 4rem;
+  padding: 2rem;
 
   > h1 {
     font-size: 2rem;
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem;
   }
 
   > div {
@@ -29,31 +29,31 @@
     background-color: $red;
     display: flex;
     align-items: center;
-    padding: 2rem;
+    padding: 1.5rem;
     color: white;
-    height: 4rem;
+    height: 3rem;
   }
 
   > main {
-    padding: 2rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     > img {
-      height: 10rem;
+      height: 7rem;
       width: 100%;
       object-fit: contain;
     }
 
     > h5 {
-      font-size: 1.8rem;
+      font-size: 1.3rem;
     }
     > .menu-card-title {
       height: 5rem;
       text-transform: uppercase;
-      letter-spacing: 2px;
-      padding: 1rem 0;
+      letter-spacing: 1px;
+      padding: 0.5rem 0;
     }
 
     > button {
