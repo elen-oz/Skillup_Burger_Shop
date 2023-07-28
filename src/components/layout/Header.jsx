@@ -6,7 +6,7 @@ import DropdownMenu from './DropdownMenu';
 
 const Header = ({ isAuthenticated = false }) => {
   return (
-    <nav className='container shadow-none'>
+    <nav>
       <div>
         <Link to='/'>
           <IoFastFoodOutline />
