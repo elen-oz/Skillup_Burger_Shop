@@ -3,8 +3,6 @@
 footer {
   background-color: $dark;
   .footer_container {
-    // min-height: 100px;
-
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -12,17 +10,9 @@ footer {
     align-items: center;
   }
 
-  h2 {
-    color: $red;
-    font-family: fantasy;
-    font-weight: 400;
-    font-size: 1.2rem;
-  }
-
-  p,
-  strong {
+  p {
     margin: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 
   aside {
@@ -38,7 +28,7 @@ footer {
 
     a {
       margin: 0 0.5rem;
-      font-size: 2rem;
+      font-size: 1.5rem;
       color: white;
       &:hover {
         color: $red;
