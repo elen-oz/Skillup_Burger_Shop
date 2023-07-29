@@ -11,11 +11,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.229);
+  // box-shadow: 0 0 10px rgba(0, 0, 0, 0.229);
   background-color: white;
 
   #header-logo {
     font-size: 3rem;
+    margin: 0 2rem;
     &:hover {
       color: $lightdark;
     }
@@ -31,7 +32,7 @@ nav {
     }
 
     > a {
-      margin: 0 2rem;
+      margin: 0 1rem;
       color: $dark;
       transition: color 0.3s;
 
