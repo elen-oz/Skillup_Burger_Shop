@@ -8,9 +8,9 @@ const Header = ({ isAuthenticated = false }) => {
   return (
     <nav>
       <div>
-        <Link to='/'>
-          <IoFastFoodOutline />
-        </Link>
+        <a href='./'>
+          <IoFastFoodOutline id='header-logo' />
+        </a>
       </div>
 
       <div>
