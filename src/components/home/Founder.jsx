@@ -1,5 +1,6 @@
 import React from 'react';
 import me from '../../assets/skj.jpg';
+
 const Founder = () => {
   return (
     <section className='founder'>

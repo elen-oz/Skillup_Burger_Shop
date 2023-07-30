@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 const Shipping = () => {
   const [country, setCountry] = useState('');
   const [state, setState] = useState('');
-  // const [city, setCity] = useState('');
 
   const formHandle = (event) => {
     event.preventDefault();
@@ -22,16 +21,12 @@ const Shipping = () => {
     console.log('== e.target.value', e.target.value);
   };
 
-  // const cityHandler = (e) => {
-  //   setCity(e.target.value);
-  //   console.log('== e.target.value', e.target.value);
-  // };
-
   return (
     <section className='shipping'>
       <main>
         <h1>Shipping Details</h1>
         <form onSubmit={formHandle}>
+
           {/* --- HOUSE --- */}
           <div>
             <label>H.No.</label>
@@ -97,7 +92,7 @@ const Shipping = () => {
             trigger={
               <Link
                 className='link'
-                // to='/myorders'
+                // ? need to redirect? to='/myorders'
               >
                 Confirm Order
               </Link>

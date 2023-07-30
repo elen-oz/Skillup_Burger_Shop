@@ -1,13 +1,12 @@
-import React from "react";
-import { motion } from "framer-motion";
-import me from "../../assets/skj.jpg";
-import { Link } from "react-router-dom";
-import { MdDashboard } from "react-icons/md";
+import React from 'react';
+import { motion } from 'framer-motion';
+import me from '../../assets/skj.jpg';
+import { Link } from 'react-router-dom';
 
 const Profile = () => {
   const options = {
     initial: {
-      y: "-100%",
+      y: '-100%',
       opacity: 0,
     },
     animate: {
@@ -15,17 +14,25 @@ const Profile = () => {
       opacity: 1,
     },
   };
+
   return (
-    <section className="profile">
+    <section className='profile'>
       <main>
-        <motion.img src={me} alt="User" {...options} />
-        <motion.h5 {...options} transition={{ delay: 0.3 }}>
+        <motion.img
+          src={me}
+          alt='User'
+          {...options}
+        />
+        <motion.h5
+          {...options}
+          transition={{ delay: 0.3 }}
+        >
           Nelson
         </motion.h5>
-      
+
         <motion.div
           initial={{
-            x: "-100vw",
+            x: '-100vw',
             opacity: 0,
           }}
           animate={{
@@ -33,12 +40,12 @@ const Profile = () => {
             opacity: 1,
           }}
         >
-          <Link to="/myorders">Orders</Link>
+          <Link to='/myorders'>Orders</Link>
         </motion.div>
 
         <motion.button
           initial={{
-            x: "-100vw",
+            x: '-100vw',
             opacity: 0,
           }}
           animate={{
