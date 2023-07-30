@@ -9,18 +9,18 @@ const OrderDetails = () => {
           <h2>Shipping</h2>
           <p>
             <b>Address</b>
-            {'sjda 12-32ss dsad'}
+            {'Kungliga slottet, 107 70 Stockholm'}
           </p>
         </div>
         <div>
           <h2>Contact</h2>
           <p>
             <b>Name</b>
-            {'Stuart'}
+            {'Carl Gustaf'}
           </p>
           <p>
             <b>Phone</b>
-            {2131232123}
+            {'+46 8-402 61 00'}
           </p>
         </div>
 
@@ -32,11 +32,11 @@ const OrderDetails = () => {
           </p>
           <p>
             <b>Placed At</b>
-            {'23-02-2002'}
+            {'23-07-2023'}
           </p>
           <p>
             <b>Delivered At</b>
-            {'23-02-2003'}
+            {'23-07-2023'}
           </p>
         </div>
 
@@ -47,11 +47,11 @@ const OrderDetails = () => {
             {'COD'}
           </p>
           <p>
-            <b>Payment Reference</b>#{'asdasdsadsad'}
+            <b>Payment Reference</b>#{'BURG_0786'}
           </p>
           <p>
             <b>Paid At</b>
-            {'23-02-2003'}
+            {'23-07-2023'}
           </p>
         </div>
 
@@ -99,14 +99,14 @@ const OrderDetails = () => {
           <div>
             <h4
               style={{
-                fontWeight: 800,
+                fontWeight: 600,
               }}
             >
               Sub Total
             </h4>
             <div
               style={{
-                fontWeight: 800,
+                fontWeight: 600,
               }}
             >
               {2132} SEK
